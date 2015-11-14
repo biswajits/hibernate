@@ -18,3 +18,5 @@ CREATE TABLE `Customer` (
   CONSTRAINT `customer_ibfk_1` FOREIGN KEY (`txn_id`) REFERENCES `Transaction` (`txn_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ==================================================
+
+ref : http://www.journaldev.com/2916/hibernate-one-to-one-mapping-annotation-and-xml-configuration-example
